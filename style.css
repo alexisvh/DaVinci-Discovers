@@ -71,4 +71,20 @@ p{
 .slidingGallery{
     background: rgb(101, 101, 101);
 }
+
+.feed{
+    line-height:0;
+    column-count:5;
+    column-gap:5px;
+}
+
+.feed img {
+    width: 100%;
+    height: auto;
+    margin-bottom:5px;
+}
+
+.tbody {
+    border-top: 25px solid #f2f2f2;
+}
   
