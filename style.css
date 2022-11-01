@@ -4,7 +4,6 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Staatliches', cursive; */
 
 /* top navigation bar code source: https://www.w3schools.com/howto/howto_js_topnav.asp */
-
 h1{
     font-family: 'Jost';
     font-weight: 400;
@@ -19,7 +18,8 @@ h1{
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    /* sbackground-color: #333; */
+    margin: 20px;
     overflow: hidden;
     align-items: center;
   }
@@ -27,7 +27,7 @@ h1{
   /* Style the links inside the navigation bar */
 .topnav a {
     font-family: 'Jost';
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 5px 30px;
     text-decoration: none;
@@ -52,4 +52,79 @@ h1{
 .slidingGallery{
     background: rgb(101, 101, 101);
 }
+
+
+#box{
+    border-color: black;
+    width: 500px;
+    height: 500px;
+    border-style: double;
+    border-width: 4px;
+    display: flex;
+    margin: auto;
+}
   
+
+#login {
+    color: black;
+    font-family: 'Jost';
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+#loginExtras {
+    font-size: 20px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    margin: 20px;
+}
+
+form{
+    /* height: 400px;
+    width: 400px; */
+    height: auto;
+    width: 400px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    backdrop-filter: blur(20px);
+    border: 5px double rgb(0, 0, 0);
+    box-shadow: 0 0 100px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+
+input{
+    font-family: 'Jost';
+    font-size: 15px;
+    background-color: lightgray;
+    display:block;
+    border: 3px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+button{
+    font-family: "Jost";
+    margin-top: 10px;
+    width: 50%;
+    background-color: gray;
+    color: white;
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border-width: 0px;
+    border-radius: 30px;
+}
