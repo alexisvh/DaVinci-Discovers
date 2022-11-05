@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Staatliches&display=swap');
+/* font-family: 'Jost', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Staatliches', cursive; */
+
+/* top navigation bar code source: https://www.w3schools.com/howto/howto_js_topnav.asp */
+/* gallery code source: https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-and-css-fcb973f595ea */
+
+h1{
+    font-family: 'Jost';
+    font-weight: 400;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+    font-family: 'Jost';
+    font-weight: 400;
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3{
+    font-family: 'Jost';
+    font-weight: 400;
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p{
+    font-family: 'Jost';
+    font-weight: 400;
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.box{
+    /* background-color: black; */
+    color:black;
+    border: black 2px;
+    margin:3px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Add a black background color to the top navigation */
+nav ul {
+    list-style: none;
+    background-color: #333;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
 }
+
+  /* Style the links inside the navigation bar */
+nav ul li a {
+    font-family: 'Jost';
+    color: #f2f2f2;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right:40px;
+    text-decoration: none;
+    font-size: 13px;
+    float: left;
+}
+
+.slidingGallery{
+    background: rgb(101, 101, 101);
+}
+
+/* create dimensions of gallery */
+.feed{
+    line-height:0;
+    column-count:5;
+    column-gap:5px;
+}
+
+/* adjust image dimensions to fit in gallery */
+.feed img {
+    width: 100%;
+    height: auto;
+    margin-bottom:5px;
+}
+
+/* creates a gap between navigation bar and rest of the page */
+.tbody {
+    border-top: 25px solid #f2f2f2;
+}
+  
