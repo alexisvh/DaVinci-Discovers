@@ -109,10 +109,10 @@ const Gallery = () => {
 
   return (
     <>
-    <Display key={index}>
+    <Display>
       {data.map((item, index)=>{
         return(
-            <Image src={item.imgSrc} />
+            <Image key={index} src={item.imgSrc} />
         )
       })}
     </Display>
