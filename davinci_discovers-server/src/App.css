@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Staatliches&display=swap');
+/* font-family: 'Jost', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Staatliches', cursive; */
+
+/* top navigation bar code source: https://www.w3schools.com/howto/howto_js_topnav.asp */
+/* gallery code source: https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-and-css-fcb973f595ea */
+
+h1{
+    font-family: 'Jost';
+    font-weight: 400;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Jost';
+    font-weight: 400;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Jost';
+    font-weight: 400;
+    text-align: center;
+}
+
+p{
+    font-family: 'Jost';
+    font-weight: 400;
+    text-align: center;
+}
+
+.box{
+    /* background-color: black; */
+    color:black;
+    border: black 2px;
+    margin:3px;
+}
+
+.slidingGallery{
+    background: rgb(101, 101, 101);
+}
+
+/* create dimensions of gallery */
+.feed{
+    line-height:0;
+    column-count:5;
+    column-gap:5px;
+}
+
+/* adjust image dimensions to fit in gallery */
+.feed img {
+    width: 100%;
+    height: auto;
+    margin-bottom:5px;
+}
+
+  
