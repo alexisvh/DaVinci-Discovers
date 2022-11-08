@@ -4,6 +4,8 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Staatliches', cursive; */
 
 /* top navigation bar code source: https://www.w3schools.com/howto/howto_js_topnav.asp */
+/* gallery code source: https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-and-css-fcb973f595ea */
+
 h1{
     font-family: 'Jost';
     font-weight: 400;
@@ -147,18 +149,21 @@ button{
     border-width: 0px;
     border-radius: 30px;
 }
+/* create dimensions of gallery */
 .feed{
     line-height:0;
     column-count:5;
     column-gap:5px;
 }
 
+/* adjust image dimensions to fit in gallery */
 .feed img {
     width: 100%;
     height: auto;
     margin-bottom:5px;
 }
 
+/* creates a gap between navigation bar and rest of the page */
 .tbody {
     border-top: 25px solid #f2f2f2;
 }
