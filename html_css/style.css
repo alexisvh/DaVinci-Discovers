@@ -85,16 +85,6 @@ p{
     margin: auto;
 }
   
-
-#login {
-    color: black;
-    font-family: 'Jost';
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin: auto;
-}
-
 #loginExtras {
     font-size: 20px;
     display: block;
@@ -106,9 +96,14 @@ p{
     margin: 20px;
 }
 
-form{
-    /* height: 400px;
-    width: 400px; */
+#form_body{
+    color: black;
+    font-family: 'Jost';
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    
     height: auto;
     width: 400px;
     background-color: rgba(255,255,255,0.13);
