@@ -9,6 +9,25 @@ h1{
     font-weight: 400;
     text-align: center;
 }
+
+h2{
+    font-family: 'Jost';
+    font-weight: 400;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Jost';
+    font-weight: 400;
+    text-align: center;
+}
+
+p{
+    font-family: 'Jost';
+    font-weight: 400;
+    text-align: center;
+}
+
 .box{
     /* background-color: black; */
     color:black;
@@ -128,3 +147,19 @@ button{
     border-width: 0px;
     border-radius: 30px;
 }
+.feed{
+    line-height:0;
+    column-count:5;
+    column-gap:5px;
+}
+
+.feed img {
+    width: 100%;
+    height: auto;
+    margin-bottom:5px;
+}
+
+.tbody {
+    border-top: 25px solid #f2f2f2;
+}
+  
