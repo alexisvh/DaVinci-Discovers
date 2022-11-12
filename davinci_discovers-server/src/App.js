@@ -3,9 +3,9 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import Feed from './pages/Feed';
+import Home from './pages/home';
+import About from './pages/about';
+import Feed from './pages/feed';
 
 
 const App = () => (
