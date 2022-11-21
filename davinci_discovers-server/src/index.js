@@ -1,3 +1,7 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+
 //const express = require('express')
 //const App = express()
 const port = 3001
@@ -44,3 +48,10 @@ App.delete('/merchants/:id', (req, res) => {
 App.listen(port, () => {
   console.log(`App running on port ${port}.`)
 })
+
+ReactDOM.render(
+<React.StrictMode>
+    <App />
+</React.StrictMode>,
+document.getElementById('root')
+);
