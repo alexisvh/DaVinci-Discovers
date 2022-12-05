@@ -11,9 +11,9 @@ export const NavLink = styled(Link)`
   font-family: 'Jost';
   color: #f2f2f2;
   text-align: center;
-  padding: 5px 30px;
+  padding: 10px 30px;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 18px;
   float: left;
   cursor: pointer;
   &.active {

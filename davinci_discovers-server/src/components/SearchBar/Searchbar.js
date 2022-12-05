@@ -6,14 +6,12 @@ import SearchIcon from "@material-ui/icons/Search";
 import { redirect } from "react-router-dom";
 
 const Searchbar = () => {
-
-
-
   return (
     <form className="search-bar">
-      <TextField
+      <TextField fullWidth
         className="search-bar"
         variant="filled"
+        size="small"
         label="Search"
         placeholder="What are you looking for?"
         required={true}

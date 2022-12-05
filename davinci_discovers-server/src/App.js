@@ -6,12 +6,13 @@ import { BrowserRouter as Router, Routes, Route}
 import Home from './pages/home';
 import About from './pages/about';
 import Feed from './pages/feed';
-
+import Searchbar from './components/SearchBar/Searchbar';
 
 const App = () => (
   <Router>
     <h1 class="box">DaVinci Discovers</h1>
-    <Navbar />
+    <Navbar/>
+    <Searchbar/>
     <Routes>
       <Route exact path='/' element={<Home />} />
       <Route exact path='/about' element={<About />} />
