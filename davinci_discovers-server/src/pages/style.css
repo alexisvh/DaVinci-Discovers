@@ -296,3 +296,18 @@ hr .new1 {
   transform: translate3d(0px, -5px, 0px);
 	color: #316ce8;
 }
+/* styling for slideshow  */
+.each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 700px;
+  }
+  
+  .each-slide-effect span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
