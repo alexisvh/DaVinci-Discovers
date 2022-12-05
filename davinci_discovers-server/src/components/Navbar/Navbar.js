@@ -5,7 +5,7 @@ import "./style.css";
 const Navbar = () => {
   return (
     <>
-      <Nav className="container-fluid">
+      <Nav>
         <NavMenu>
           <div className="topnav">
             <NavLink to="/">Home</NavLink>
