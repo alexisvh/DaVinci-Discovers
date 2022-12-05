@@ -20,6 +20,10 @@ export const NavLink = styled(Link)`
     background-color: gray;
     color: white;
   }
+  &.hover{
+    background-color: #ddd;
+    color: black;
+  }
 `;
 
 export const NavMenu = styled.div`
