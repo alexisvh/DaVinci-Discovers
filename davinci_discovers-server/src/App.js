@@ -10,7 +10,6 @@ import Searchbar from './components/SearchBar/Searchbar';
 
 const App = () => (
   <Router>
-    <h1 class="box">DaVinci Discovers</h1>
     <Navbar/>
     <Searchbar/>
     <Routes>
