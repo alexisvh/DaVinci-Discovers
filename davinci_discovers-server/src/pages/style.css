@@ -298,12 +298,12 @@ hr .new1 {
 }
 /* styling for slideshow  */
 .each-slide-effect > div {
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content: center;
-    background-size: cover;
+    background-size:cover;
     height: 700px;
-  }
+}
   
   .each-slide-effect span {
     padding: 20px;
