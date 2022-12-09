@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
 // Code source for log in structure and validations: https://contactmentor.com/login-form-react-js-code/
-
+import logo from '../graphics/DALogotransparent.png'
 function LogIn() {
   // React States
   const [errorMessages, setErrorMessages] = useState({});
@@ -56,7 +56,9 @@ function LogIn() {
   // JSX code for login form
   const renderForm = (
     <div id="form_body" class="animate form">
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} autoComplete="on">
+      <h1 class="box"> <img src={logo} alt="wrapkit"  width="300"/></h1>
+      <br></br> <h3>Welcome back!</h3> <br></br>
         <div className="inputbox">
           <input type="text" name="uname" placeholder="Username" required />
           <p className="error">{renderErrorMessage("uname")}</p>
@@ -69,6 +71,16 @@ function LogIn() {
         <br></br>
         <div className="button">
           <input type="submit" />
+        </div>
+      </form>
+      <br></br>
+        Don't have an account yet?
+      <br></br>
+      <form>
+        <div className="button">
+        <a href="https://google.com" target="_blank" rel="noreferrer">
+          <button>Register</button>
+        </a>
         </div>
       </form>
     </div>

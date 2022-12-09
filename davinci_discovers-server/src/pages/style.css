@@ -149,6 +149,7 @@ button{
     width: 50%;
     background-color: gray;
     color: white;
+    text-decoration: none;
     padding: 10px 0;
     font-size: 15px;
     font-weight: 600;
