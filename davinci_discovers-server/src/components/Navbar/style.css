@@ -50,7 +50,6 @@ p{
 /* Add a black background color to the top navigation */
 .topnav {
     /* sbackground-color: #333; */
-    color: #000;
     margin: 20px;
     overflow: hidden;
     align-items: center;
@@ -312,3 +311,7 @@ hr .new1 {
     background: #efefef;
     text-align: center;
   }
+
+.search-bar {
+    font-family: 'Jost';
+}
